@@ -20,7 +20,7 @@ class Evento {
     this.updated_at = updated_at || new Date().toISOString();
   }
 
-  static async pegarTodosOsEventos() {
+  static async pegarEventos() {
     return [{
       id: 1,
       nome: 'Nome do Evento',
